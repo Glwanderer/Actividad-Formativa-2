@@ -78,10 +78,10 @@ public class GestionEmpleados {
         Empleado e = buscarPorNumero(numeroEmpleado);
         if (e != null) {
             listaEmpleados.remove(e);
-            System.out.println("✔ Empleado eliminado: " + e.getNombre());
+            System.out.println(" Empleado eliminado: " + e.getNombre());
             return true;
         }
-        System.out.println("✘ Empleado no encontrado.");
+        System.out.println(" Empleado no encontrado.");
         return false;
     }
 
